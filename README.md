@@ -29,6 +29,7 @@
   - has a `spell_type` (like fire, healing, etc.)
   - has many wizards 
 
+### Wizard Methods
 - `Wizard#spells` 
   - return all the spells the wizard knows
 - `Wizard#invoke_spells` 
@@ -43,6 +44,7 @@
   - takes a spell instance as an argument, and adds it to the list of spells the wizard knows
   - BONUS: only let the wizard learn this spell if their skill_level is greater than or equal to the spell's `level_requirement`
 
+### Spell Methods
 - `Spell#wizards` 
   - return all the wizards that know this spell
 - `Spell.sort_by_name` 
