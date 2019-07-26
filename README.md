@@ -38,7 +38,7 @@
   - `puts` to the console the phrase `Yer a wizard, wizard_name` IF the wizard is a Hogwarts graduate
 - `Wizard.all_hogwarts_grads` 
   - returns all wizard instances who are Hogwarts graduates
-- `Wizart.strongest` 
+- `Wizard.strongest` 
   - return the wizard with the highest skill level
 - `Wizard#learn_spell`
   - takes a spell instance as an argument, and adds it to the list of spells the wizard knows
